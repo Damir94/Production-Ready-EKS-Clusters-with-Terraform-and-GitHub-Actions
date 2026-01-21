@@ -39,16 +39,16 @@ But if you want to understand what configurations we are doing, then you can con
 
 ![structr](https://github.com/user-attachments/assets/653f45a5-c325-4e0a-9535-8a8a49bc2f8f)
 
-#### modules directory
+### modules directory
 This directory contains all the Terraform resource definitions related to the EKS cluster and its supporting services, such as IAM, VPC, and other required components.
 
-#### eks directory
+### eks directory
 In this directory, we define the resources based on our specific requirements. We also invoke (call) the reusable modules created inside the modules directory.
 
-#### Module Directory Breakdown
+### Module Directory Breakdown
 We’ll begin by exploring the files inside the modules directory.
 
-#### gather.tf
+### gather.tf
 The gather.tf file is used to fetch the TLS certificate for the EKS cluster.
 This certificate is required to configure an OIDC identity provider, which allows us to create IAM roles and policies that can be securely assumed by Kubernetes service accounts.
 This setup is a critical best practice for enabling secure IAM integration with EKS.
