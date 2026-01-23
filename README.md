@@ -904,3 +904,9 @@ jobs:
 To run the workflow, you need to provide a parameter.
 
 Click on Run workflow after providing the arguments(Initially, we will run the plan only).
+
+<img width="1906" height="620" alt="Screenshot 2026-01-23 at 12 38 26 PM" src="https://github.com/user-attachments/assets/de463f36-6e5c-47a5-b416-a0dfc11de060" />
+
+The Plan is Successful.
+
+<img width="1869" height="668" alt="Screenshot 2026-01-23 at 12 39 43 PM" src="https://github.com/user-attachments/assets/5edc1556-345a-402e-a0b8-829d6645d3b4" />
