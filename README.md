@@ -922,20 +922,19 @@ Let’s validate them by viewing them on the Console
 
 <img width="688" height="97" alt="Screenshot 2026-02-05 at 12 45 55 PM" src="https://github.com/user-attachments/assets/e50f4bbd-e46a-4b92-a939-57a91028fa06" />
 
-
 ### Public & Private Subnets
-
-
+![1_vdCErt2UEG80O2NS-1sk0g](https://github.com/user-attachments/assets/7579050e-b7db-40a3-9a9a-1b6d91441418)
 
 ### Internet Gateway
 
-
+![1_TqKRdJZAh0ksZkdwH4jMyA](https://github.com/user-attachments/assets/34767663-934f-4624-ae78-ff43293031eb)
 
 ### Elastic IP
 
-
+![1_TqKRdJZAh0ksZkdwH4jMyA](https://github.com/user-attachments/assets/de8211bd-e221-4e4d-b2b0-d72aea3a8379)
 
 ### Security Group
+
 
 ### EKS Cluster
 
