@@ -7,27 +7,16 @@ terraform {
       version = "~> 5.49"
     }
   }
+
+  backend "s3" {
+    bucket         = "dev-damir-tf-bucket"
+    key            = "eks/terraform.tfstate"
+    region         = "us-east-1"
+    encrypt        = true
+    dynamodb_table = "Lock-Files"
+  }
 }
 
 provider "aws" {
   region = "us-east-1"
-}
-
-resource "aws_s3_bucket" "terraform_state_bucket" {
-  bucket = "dev-damir-tf-bucket"
-
-  lifecycle {
-    prevent_destroy = false
-  }
-}
-
-resource "aws_dynamodb_table" "terraform_state_lock" {
-  name         = "Lock-Files"
-  billing_mode = "PAY_PER_REQUEST"
-  hash_key     = "LockID"
-
-  attribute {
-    name = "LockID"
-    type = "S"
-  }
 }
